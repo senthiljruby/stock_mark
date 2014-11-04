@@ -1,0 +1,179 @@
+    <!-- BEGIN HEADER -->
+    <div class="header navbar navbar-inverse "> 
+      <!-- BEGIN TOP NAVIGATION BAR -->
+      <div class="navbar-inner">
+        <div class="header-seperation"> 
+          <ul class="nav pull-left notifcation-center" id="main-menu-toggle-wrapper" style="display:none">  
+            <li class="dropdown"> 
+              <a id="main-menu-toggle" href="#main-menu"  class="" > 
+                <div class="iconset top-menu-toggle-white"></div>
+              </a>
+            </li>    
+          </ul>
+
+          <!-- BEGIN LOGO --> 
+          <a href="index.html"><span class="logo pull-left" width="106" height="92"/><img src="/assets/logo.png"/></span></a>
+          <!-- END LOGO --> 
+
+          <ul class="nav pull-right notifcation-center">  
+            <li class="dropdown" id="header_task_bar"> 
+              <a href="index.html" class="dropdown-toggle active" data-toggle=""> 
+              <div class="iconset top-home"></div> 
+              </a> 
+            </li>
+          </ul>
+        </div>
+        <!-- END RESPONSIVE MENU TOGGLER --> 
+          
+        <div class="header-quick-nav" > 
+          <!-- BEGIN TOP NAVIGATION MENU -->
+          <div class="pull-left"> 
+            <ul class="nav quick-section">
+              <li class="quicklinks">
+                <a href="#" class="" id="layout-condensed-toggle" >
+                  <div class="iconset top-menu-toggle-dark"></div>
+                </a>
+              </li>        
+            </ul>
+            <ul class="nav quick-section">
+              <li class="quicklinks"> 
+                <a href="#" class="" ><div class="iconset top-reload"></div> </a> 
+              </li> 
+              <li class="quicklinks"> <span class="h-seperate"></span></li>
+              <li class="quicklinks"> 
+                <a href="#" class="" ><div class="iconset top-tiles"></div></a> 
+              </li>
+              <div class="input-prepend inside search-form no-boarder">
+                <span class="add-on"> <a href="#" class="" ><div class="iconset top-search"></div></a></span>
+                <input name="" type="text"  class="no-boarder " placeholder="Search" style="width:250px;">
+              </div>
+            </ul>
+          </div>
+          <!-- END TOP NAVIGATION MENU -->
+          <!-- BEGIN CHAT TOGGLER -->
+          <div class="pull-right"> 
+            <div class="chat-toggler">
+              <div class="user-details"> 
+                <div class="username">
+                  Welcome <span class="bold">Guest</span>                 
+                </div>            
+              </div> 
+              <div class="iconset top-down-arrow"></div>            
+              <div class="profile-pic"> 
+                <img alt="" src="/assets/profiles/avatar_small.jpg" data-src="/assets/profiles/avatar_small.jpg" data-src-retina="/assets/profiles/avatar_small2x.jpg" width="35" height="35" /> 
+              </div>            
+            </div>
+            <ul class="nav quick-section ">
+              <li class="quicklinks"> 
+                <a data-toggle="dropdown" class="dropdown-toggle  pull-right" href="#">           
+                  <div class="iconset top-settings-dark "></div>  
+                </a>
+                <ul class="dropdown-menu  pull-right" role="menu" aria-labelledby="dropdownMenu">
+                  <li><a href="user-profile.html"> My Account</a></li>
+                  <li class="divider"></li>                
+                  <li><a href="login.html"><i class="icon-off"></i>&nbsp;&nbsp;Log Out</a></li>
+                </ul>
+              </li> 
+            </ul>
+          </div>
+          <!-- END CHAT TOGGLER -->
+        </div> 
+        <!-- END TOP NAVIGATION MENU --> 
+      </div>
+      <!-- END TOP NAVIGATION BAR --> 
+    </div>
+    <!-- END HEADER --> 
+    <!-- BEGIN CONTAINER -->
+    <div class="page-container row-fluid"> 
+      <!-- BEGIN SIDEBAR -->
+      <div class="page-sidebar" id="main-menu"> 
+        <!-- BEGIN MINI-PROFILE -->
+        <div class="user-info-wrapper"> 
+          <div class="profile-wrapper">
+            <img src="/assets/profiles/avatar.jpg" data-src="/assets/profiles/avatar.jpg" data-src-retina="assets/profiles/avatar2x.jpg" width="69" height="69" />
+          </div>
+          <div class="user-info">
+            <div class="greeting">Welcome</div>
+            <div class="username">Guest</div>
+          </div>
+       </div>
+      <!-- END MINI-PROFILE -->
+      
+      <!-- BEGIN MINI-WIGETS -->
+
+       <!-- END MINI-WIGETS -->
+       
+       <!-- BEGIN SIDEBAR MENU -->  
+        <ul>       
+          <li class=""> 
+            <a href="grid.html"> 
+              <i class="icon-custom-ui"></i> 
+              <span class="title">Dashboard 1</span> <span class="arrow "></span> 
+            </a>
+          </li>
+          <li class=""> 
+            <a href="javascript:;"> 
+              <i class="icon-custom-form"></i> 
+              <span class="title">Dashboard 2</span> <span class="arrow "></span> 
+            </a>
+          </li>
+        </ul>
+          <!-- END SIDEBAR MENU --> 
+        </div>
+        <!-- END SIDEBAR --> 
+        
+        <!-- BEGIN PAGE CONTAINER-->
+        <div class="page-content"> 
+          <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+          <div id="portlet-config" class="modal hide">
+            <div class="modal-header">
+              <button data-dismiss="modal" class="close" type="button"></button>
+              <h3>Widget Settings</h3>
+            </div>
+            <div class="modal-body"> Widget settings form goes here </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="content">
+            <div class="span6">
+              <div class="grid solid red">
+                <div class="grid-title">
+                  <h4>Daily Featured Options Deal</h4>
+                </div>
+              </div>   
+              <div class="grid simple">
+                <div class="grid-body">
+                  <div class="row-fluid">
+                    <div class="span4" style="float:left; width:25%">Stock</div>
+                    <div class="span4" style="float:left; width:35%">Strike</div>
+                    <div class="span4">Expiration</div>
+                    <div class="clearfix"></div>
+
+                    <h2 style="text-align:center;"  class="text-success">Buy $1 or lower</h2>
+                    <div class="span3" style="border-right: 1px dotted;"><h2 class="text-info">50%</h2><strong>Savings*</strong></div>
+                    <div class="span3" style="height: 55px; border-right: 1px dotted;">
+                      <h4 class="text-error">Sell:2<br/> Stop: 0.8</h4><strong>Action</strong>
+                    </div>
+                    <div class="span5" style="color:#f35958;">
+                      <h4 class="text-error">
+                        Exit by close today<br/>
+                        No Exceptions
+                      </h4><br/><strong>Rule</strong>
+                    </div>
+                    <div class="clearfix"></div>
+                    <p class="text-right">
+                      <a href="#"><img src="/assets/social/twitter.png" width="30"></a>
+                      <a href="#"><img src="/assets/social/facebook.png" width="30"></a>
+                      <a href="#"><img src="/assets/social/google.png" width="30"></a>
+                    </p>
+                  </div>
+                </div>
+                <div class="grid-title" style="background-color:#000;">
+                  <h4 class="text-success">Last updated: 9 AM EST, Today</h4>
+                </div>
+              </div>   
+            </div>
+          </div>
+        </div>  
+        <!-- END PAGE --> 
+      </div>
+      <!-- END CONTAINER --> 
