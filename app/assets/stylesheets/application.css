@@ -14,7 +14,5 @@
  *= require custom-icon-set
  *= require ios7-switch
  *= require animate.min
- *= require responsive
- *= require style
  *= require_tree .
  */
