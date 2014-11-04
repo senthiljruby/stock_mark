@@ -369,16 +369,16 @@ and (orientation : portrait) {
 	.widget{
 		margin-right:0px;
 	}
-	.row-fluid.2col [class*="span"]{
+/*	.row-fluid.2col [class*="span"] {
 		width:48% !important;
 		margin:0px;
 		margin-bottom:10px;
 	}
-	.row-fluid [class*="span"]{
+	.row-fluid [class*="span"] {
 		width:100% ;
 		margin:0px;
 		margin-bottom:10px;
-	}
+	}*/
 	
 	.column-seperation > div[class*="span"]{
 		border-right:none;		
@@ -393,10 +393,7 @@ and (orientation : portrait) {
 	}
 
 }
-
-@media (max-width: 767px) { 
-	
-	
+@media (max-width: 767px){	
 	/*** Page header ***/
 	.header .navbar-inner .container-fluid {
 		margin-left: 10px !important;
@@ -743,12 +740,10 @@ and (orientation : portrait) {
 @media (max-width: 1000px){
 	#Parks.list .meta{
 		width: 150px;
-	}
-	
-
+	}	
+}
 @media (max-width: 840px){
-	#Parks.list .meta.region,
-	#Parks.list .meta.rec{
+	#Parks.list .meta.region, #Parks.list .meta.rec{
 		display: none;
 	}
 }
