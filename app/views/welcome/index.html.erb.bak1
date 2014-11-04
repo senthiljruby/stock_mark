@@ -8,26 +8,24 @@
   <div class="grid simple">
     <div class="grid-body">
       <div class="row-fluid">
-        <div class="span4"  style="float:left; width:25%">Stock</div>
-        <div class="span4"  style="float:left; width:35%">Strike</div>
+        <div class="span4">Stock</div>
+        <div class="span4">Strike</div>
         <div class="span4">Expiration</div>
         <h2 style="text-align:center;"  class="text-success">Buy $1 or lower</h2>
-        <div class="span3" style="border-right: 1px dotted;float:left; width:30%; height:120px">
-          <h2 class="text-info" style="margin-top:40px;">50%</h2></div>
-        <div class="span3" style="height: 120px; border-right: 1px dotted;float:left; width:30%">
+        <div class="span3" style="border-right: 1px dotted;"><h2 class="text-info">50%</h2></div>
+        <div class="span3" style="height: 55px; border-right: 1px dotted;">
           <h4 class="text-error">Sell:2<br/> Stop: 0.8</h4>
         </div>
-        <div class="span3" style="color:#f35958;">
+        <div class="span5" style="color:#f35958;">
           <h4 class="text-error">
-            Exit by <br/>
-            close <br/>today<br/>
+            Exit by close today<br/>
             No Exceptions
           </h4>
         </div>
         <div class="clearfix"></div>
-        <div style="float:left; width:33%"><strong>Savings*</strong></div>
-        <div class="span3" style="float:left; width:30%"><strong>Action</strong></div>
-        <div class="span5" style="float:left; width:30%"><strong>Rule</strong></div>
+        <div class="span3"><strong>Savings*</strong></div>
+        <div class="span3"><strong>Action</strong></div>
+        <div class="span5"><strong>Rule</strong></div>
         <div class="clearfix"></div>
         <p class="text-right">
           <a href="#"><img src="/assets/social/twitter.png" width="30"></a>
