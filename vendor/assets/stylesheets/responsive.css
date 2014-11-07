@@ -53,8 +53,9 @@ and (min-width : 1824px) {
 
   	/*** Page content ***/
   	.page-content { 
-  		margin-left: 250px; 
-		margin-top: 58px;
+  		/*margin-left: 250px; */
+  		margin-left:35px;
+			margin-top: 58px;
 	}
 
 	.page-content.no-min-height {
@@ -126,6 +127,9 @@ and (min-width : 1824px) {
 	}
 	.scrollup{
 		left: 235px;
+	}
+	body{
+		font-size: 10px;
 	}
 }
 
