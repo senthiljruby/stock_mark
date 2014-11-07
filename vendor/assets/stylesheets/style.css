@@ -680,7 +680,8 @@ hr {
 }
 
 .header .nav > li.dropdown .active {
-	background-color:#0d0f12;
+	/*background-color:#0d0f12;*/
+  background-color: #22262e;
 }
 .header .nav > li.dropdown .dropdown-toggle i {
   font-size: 15px;
