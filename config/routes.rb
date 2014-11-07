@@ -1,5 +1,6 @@
 StockMarket::Application.routes.draw do
   get "welcome/index"
+  get "welcome/opt_detail"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
