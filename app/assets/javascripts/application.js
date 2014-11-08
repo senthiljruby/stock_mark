@@ -20,4 +20,5 @@
 //= require ios7-switch
 //= require jquery.ui.touch-punch.min
 //= require modernizr
+//= require bootstrap3.min
 //= require_tree .

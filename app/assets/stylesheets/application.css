@@ -16,5 +16,7 @@
  *= require animate.min
  *= require responsive
  *= require style
+ *= require bootstrap3.min
+ *= require bootstrap-theme.min
  *= require_tree .
  */
